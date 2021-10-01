@@ -1,0 +1,68 @@
+h1
+{
+  color: red;
+  border: 1px solid black;
+  padding: 100px;
+}
+
+nav
+{
+  width: auto;
+  height: 10%;
+  border: 1px solid black;
+  padding: 30px;
+  margin-bottom: 1%
+}
+
+nav ul
+{
+  margin: 0 0 0 20px;
+}
+
+nav li
+{
+  float: left;
+  list-style-type: none;
+  padding: 0 0 0 10px;
+}
+
+.mainos
+{
+  width: 33%;
+  height: 20%;
+  float: left;
+  border-radius: 20px;
+  margin: 3px;
+  background-color: lightgrey;
+}
+
+aside
+{
+width: 35%;
+height: 750px;
+background-color: lightgrey;
+border-radius: 20px;
+float: right;
+margin-top: 1%;
+}
+
+aside article
+{
+
+}
+
+section
+{
+width: 63%;
+height: 750px;
+background-color: lightgrey;
+border-radius: 20px;
+margin-top: 4%;
+}
+
+footer
+{
+height: 40px;
+border: 1px solid black;
+margin: 1% 0%;
+}
