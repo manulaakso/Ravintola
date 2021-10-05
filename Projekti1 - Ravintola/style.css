@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+  position: relative;
+  top: 0;
+  height:1000px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0;
+}
+
+.header {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 18%;
+}
+
+.chef {
+  position: absolute;
+  bottom: 100px;
+  left: 16px;
+}
+
+.navpalkki {
+  position: absolute;
+  top: 250px;
+  left: 248px;
+  width: 1024px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #873e23;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color: #DDA517;
+}
