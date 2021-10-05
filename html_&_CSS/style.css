@@ -1,10 +1,20 @@
-h1
-{
-  color: red;
-  border: 1px solid black;
-  padding: 100px;
-  margin: 1% 20%;
 
+.header
+{
+
+  padding: ;
+  margin: 0% 20%;
+  z-index: -1;
+  background-image: url(header_pohja_1280x500px.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo
+{
+  position: relative;
+  margin-left: 2%;
 }
 
 nav
@@ -77,6 +87,14 @@ article
   border-radius: 20px;
   float: left;
   margin:  ;
+}
+
+.articleimg
+{
+  position: relative;
+  left: 0px;
+  top: 25%;
+  z-index: ;
 }
 
 footer
