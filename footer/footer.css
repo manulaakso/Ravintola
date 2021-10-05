@@ -1,0 +1,22 @@
+footer
+{
+  width: auto;
+  height: 10%;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 1% 20%;
+}
+
+table
+{
+width: 100%
+}
+.vasen
+{
+  text-align: left;
+}
+
+.oikea
+{
+  text-align: right;
+}
