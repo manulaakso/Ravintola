@@ -29,12 +29,12 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/image1.jpg');
+  background-image:url('IMG_6640.jpg');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('../img/image2.jpg');
+  background-image:url('mbckgrnd1.jpg');
   min-height:400px;
 }
 
@@ -54,8 +54,8 @@ body, html{
 }
 
 .section-dark{
-  background-color:#282e34;
-  color:#ddd;
+  background-color:#003331;
+  color:#669B99;
 }
 
 .ptext{
