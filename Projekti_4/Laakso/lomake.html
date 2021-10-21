@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lomake.css">
+    <title>Ilmoittautumislomake</title>
+  </head>
+  <body>
+    <h2>Ilmoittautumislomake</h2>
+    <section>
+
+
+    <form class="lomake">
+      <label for="etunimi">Etunimet: </label>
+      <input type="text" id="enimi" placeholder="Etunimet"><br>
+      <label for="sukunimi">Sukunimi: </label>
+      <input type="text" id="snimi" placeholder="Sukunimi"><br/>
+      <label for="katuosoite">Katuosoite: </label>
+      <input type="text" id="kosoite" placeholder="Katuosoite"><br>
+      <label for="postinumero">Postinumero: </label>
+      <input type="text" id="postinro" placeholder="Postinumero"><br>
+      <label for="kotikaupunki">Kaupunki: </label>
+      <input type="text" id="kaupunki" placeholder="Kaupunki"><br/>
+      <label for="puhelinnumero">Puhelinnumero: </label>
+      <input type="text" id="puhnro" placeholder="Puhelinnumero"><br>
+      <label for="sahkoposti">Sähköposti: </label>
+      <input type="sposti" id="kaupunki" placeholder="Sähköposti"><br/>
+      <label for="tyonantajataioppilaitos">Työnantaja tai oppilaitos: </label>
+      <input type="text" id="tyonanatoppilait" placeholder="Työnantaja tai oppilaitos"><br>
+      <label for="tyoanatajataioppilaitos2">Ammattinimike tai jos opiskelija: Opiskelija </label>
+      <input type="text" id="tyonanatoppilait2" placeholder="Ammattinimike/Opiskelija"><br><hr>
+      <label for="hintaluokka">Valitse hintaluokka: </label><br/>
+      <input type="radio" id="normaali" name="hinta">
+      <label for="Eeva">Normaali (100€)</label><br/>
+      <input type="radio" id="premium" name="hinta">
+      <label for="Jyri">Premium (200€)</label><br/>
+      <input type="radio" id="gold" name="hinta">
+      <label for="Vesa">Gold (300€)</label><br/><hr>
+      <label for="erityisruokavalio">Erityisruokavalio: </label>
+      <input type="text" id="ruokavalio" placeholder="Erityisruokavalio"><br><hr>
+      <label for="lisatietoja">Lisätietoja:</label><br/>
+            <textarea name="lisätietoja" rows="8" cols="80"></textarea><br>
+            <button type="button" name="button" onclick="tarkista()">Lähetä</button>
+    </form>
+    </section>
+  </body>
+</html>

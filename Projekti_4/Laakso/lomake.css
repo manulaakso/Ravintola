@@ -1,0 +1,15 @@
+body
+{
+  margin:auto;
+  padding: 40px;
+}
+
+section
+{
+
+  border-style:solid;
+  width:650px;
+
+  border-width: 1px;
+  padding: 20px;
+}
