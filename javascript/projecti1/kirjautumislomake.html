@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="kirjautumislomake.css">
+    <script src="kirjautumislomake.js">
+
+    </script>
+  </head>
+  <body>
+    <div class="keskita">
+    <form class="" action="kiitos.html" method="post" onsubmit="return tarkasta(this)" onreset="return tyhjenna(this)">
+      <h1>Kirjautumislomake</h1>
+      <table>
+        <tr>
+          <td>Anna etunimi: </td>
+          <td class="oikea"><input type="text" name="enimi" value=""></td>
+        </tr>
+        <tr>
+          <td>Anna sukunimi:</td>
+          <td class="oikea"><input type="text" name="snimi" value=""></td>
+        </tr>
+        <tr>
+          <td>Anna sähköpostisi:</td>
+          <td class="oikea"><input type="text" name="email" value=""></td>
+        </tr>
+        <tr>
+          <td colspan = "2">Palautteesi kotisivuistani:</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="oikea"><textarea name="palaute" rows="8" cols="50"></textarea></td>
+        </tr>
+      </table>
+<p>Valitse näistä toinen: </p>
+  <p>
+    <input type="radio" name="mainos" value="mainos" />
+    Haluan saada mainospostia.<br />
+    <input type="radio" name="mainos" value="eimainos" />
+    En halua mainospostia.
+  </p>
+  <p>
+    Mistä pidät eniten? </p><p>
+      <input type="checkbox" name="boksi" value="1">AA<br/>
+      <input type="checkbox" name="boksi" value="2">BB<br/>
+      <input type="checkbox" name="boksi" value="3">CC<br/>
+      <input type="checkbox" name="boksi" value="4">DD<br/>
+  </p>
+  <p>
+    <input type="submit" name="submit" value="Tarkasta lomake">
+    <input type="reset" name="reset" value="Tyhjennä lomake">
+  </p>
+    </form>
+  </div>
+  </body>
+</html>
