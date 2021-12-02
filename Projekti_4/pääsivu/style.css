@@ -85,7 +85,7 @@ nav .korostus{
 
 #kuvat
 {
-  margin: 2% 15%; 
+  margin: 2% 15%;
 
 }
 .sisältö
@@ -101,7 +101,7 @@ width: 500px;
 text-align: center;
 color: white;
 }
-
+/*footer*/
 footer
 {
   clear: both;
