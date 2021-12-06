@@ -1,0 +1,23 @@
+body{
+  margin:  auto;
+  padding: 5% 40%;
+}
+#otsikko{
+text-align: center;
+}
+#kuvaus {
+  text-align: center;
+}
+#kyselyLomake {
+  width: 400px;
+  height: 700px;
+  background-color: #93D2A8;
+  padding: 10px;
+  display: inline-block;
+  left-margin: auto;
+  right-margin: auto;
+  text-align: left;
+  margin: 50px 10%;
+  border: 2px solid #0C642A;
+  border-radius: 5%;
+}

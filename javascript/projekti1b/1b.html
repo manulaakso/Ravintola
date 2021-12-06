@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="1b.css">
+    <script src="1b.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+<h1 id="otsikko">Kysely lomake</h1>
+<p id="kuvaus">Tämä on kyselylomake.</p>
+<form id="kyselyLomake" action="kiitos.html" onsubmit="return tarkistaTiedot(this)" onreset="return tyhjenna(this)" method="post">
+<table>
+  <tr>
+    <td>Nimesi: </td>
+    <td><input type="text" id="nimi" value="" placeholder="Kirjoita tähän koko nimesi"></td>
+  </tr>
+  <tr>
+    <td>Sähköposti: </td>
+    <td><input type="text" id="email" value="" placeholder="Anna sähköpostiosoitteesi"></td>
+  </tr>
+  <tr>
+    <td>Ikä: </td>
+    <td><input type="text" id="ika" value="" placeholder="Kerro ikäsi"></td>
+  </tr>
+</table><br><br>
+<label for="pudotus">Mikä on mielipiteesi sivuista? </label>
+<select id="pudotus" name="pudotus">
+  <option value=""></option>
+  <option value="erinomainen">Erinomainen</option>
+  <option value="hyvä">Hyvä</option>
+  <option value="kehitettävää">kehitettävää</option>
+  <option value="huono">Huono</option>
+</select><br><br>
+<p>Mikä näistä osaat parhaiten?</p>
+<input type="radio" name="kieli" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" name="kieli" value="CSS">
+<label for="css">CSS</label><br>
+<input type="radio" name="kieli" value="JavaScript">
+<label for="javascript">JavaScript</label><br><br>
+<p>Haluatko uutiskirjettä? Vai haluatko voittaa ilmaiset nettisivut?</p>
+<input type="checkbox" name="boksi" value="kisa1">Haluan osallistua kilpailuun ja tilata uutiskirjeen <br>
+<input type="checkbox" name="boksi" value="Kisa2">Haluan tilata uutiskirjeen, mutta en osallistu kilpailuun <br>
+<input type="checkbox" name="boksi" value="kisa3">Haluan osallistua kilpailuun, mutta en halua tilata uutiskirjettä <br>
+
+<p>vapaa kommentointi:</p>
+<textarea name="message" rows="10" cols="50"></textarea><br><br>
+<input type="submit" name="submit" value="lähetä" onsubmit="return tarkistaTiedot()">
+<input type="reset" name="reset" value="Tyhjennä lomake">
+</form>
+  </body>
+</html>
