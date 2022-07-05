@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- haetaan javascript-tiedosto HTML:n käyttöön -->
+    <script src="muistipeli1.js" charset="utf-8"></script>
+    <!-- Linkitetään myös CSS-tiedosto HTML:n käyttöön -->
+    <link rel="stylesheet" href="muistipeli1.css">
+    <title>Muistipeli</title>
+  </head>
+    <!-- Ladataan peli näkyville -->
+  <body>
+    <span id="minutes"></span>:<span id="seconds"></span>
+    <div id="header">VALITSE MUISTIPELIN KOKO!</div>
+    <div id="buttons">
+    <button onclick="luoTaulukko(4,4)">KOKO 4 x 4 - 16 ruutua</button>
+    <button onclick="luoTaulukko(4,6)">KOKO 6 x 4 - 24 ruutua</button>
+    <button onclick="luoTaulukko(5,6)">KOKO 6 x 5 - 30 ruutua</button>
+    <button onclick="luoTaulukko(4,9)">KOKO 9 x 4 - 36 ruutua</button>
+    </div>
+    <!-- Luodaan peliä varten paikka -->
+    <div id="pelialue"></div>
+    <p>Kuvat &copy; K. Lepola, M. Laakso ja J. Turkkila. All rights reserved.</p>
+    <div id="tulos"></div>
+    </div>
+  </body>
+</html>

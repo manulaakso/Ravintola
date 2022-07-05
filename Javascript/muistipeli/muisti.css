@@ -1,0 +1,15 @@
+/* MÃ¤Ã¤ritetÃ¤Ã¤n sarakkeen ominaisuudet */
+td{
+  background-color: #57BA5A;
+  height: 215px;
+  width: 215px;
+  text-align: center;
+  font-size: 72px;
+  background-image: url("kuvat/tausta.png");
+  background-size: 215px 215px;
+}
+/* MÃ¤Ã¤ritetÃ¤Ã¤n kuvien ominaisuudet */
+img{
+  height: 215px;
+  margin-bottom: -20px;
+}

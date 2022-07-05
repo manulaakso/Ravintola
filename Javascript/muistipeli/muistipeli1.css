@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+* , html, body, p {
+box-sizing: border-box;
+font-family: 'Noto Sans', sans-serif;
+margin: 0;
+padding: 0;
+text-align: center;
+align: center;
+}
+
+#header
+{
+  font-size: 60px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#pelialue
+{
+  align-items: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+table
+{
+  text-align: center
+}
+
+#tulos
+{
+  font-size: 60px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#buttons {
+display: grid;
+font-size: 3em;
+grid-template-columns: repeat(4, auto);
+text-align: center;
+
+}
+
+td{
+  background-color: #white;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 72px;
+  background-image: url("webkuvat1/tausta.png");
+  background-size: 150px 150px;
+}
+/* MÃ¤Ã¤ritetÃ¤Ã¤n kuvien ominaisuudet */
+img{
+  height: 150px;
+  margin-bottom: -20px;
+}
